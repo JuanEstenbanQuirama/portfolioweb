@@ -6,7 +6,7 @@ section#projects
     .about-containers
       .details-container.color-container
         .article-container
-          img.project-img(src='./assets/project-1.png' alt='Project 1')
+          img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 1')
         h2.experience-sub-title.project-title Project One
         .btn-container
           button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
@@ -15,7 +15,7 @@ section#projects
             | Live Demo
       .details-container.color-container
         .article-container
-          img.project-img(src='./assets/project-2.png' alt='Project 2')
+          img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 2')
         h2.experience-sub-title.project-title Project Two
         .btn-container
           button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
@@ -24,13 +24,22 @@ section#projects
             | Live Demo
       .details-container.color-container
         .article-container
-          img.project-img(src='./assets/project-3.png' alt='Project 3')
+          img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 3')
         h2.experience-sub-title.project-title Project Three
         .btn-container
           button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
             | Github
           button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
             | Live Demo
-  img.icon.arrow(src='./assets/arrow.png' alt='Arrow icon' onclick="location.href='./#projects'")
+      //- .details-container.color-container
+      //-   .article-container
+      //-     img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 3')
+      //-   h2.experience-sub-title.project-title Project Three
+      //-   .btn-container
+      //-     button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
+      //-       | Github
+      //-     button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
+      //-       | Live Demo
+  img.icon.arrow(src='../assets/image/arrow-down.png' alt='Arrow icon' onclick="location.href='./#contact'")
     
 </template>

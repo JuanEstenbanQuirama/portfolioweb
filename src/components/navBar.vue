@@ -1,7 +1,7 @@
 
 <template lang="pug">
 nav#desktop-nav
-  .logo Juan Esteban
+  .logo Dev Bitan
   div
     ul.nav-links
       li
@@ -13,7 +13,7 @@ nav#desktop-nav
       li
         a(href='#contact') Contact
 nav#hamburger-nav
-  .logo Juan Esteban
+  .logo Dev Bitan
   .hamburger-menu
     .hamburger-icon(onclick='toggleMenu()')
       span

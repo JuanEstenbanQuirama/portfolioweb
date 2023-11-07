@@ -8,27 +8,22 @@ section#about
     .about-details-container
       .about-containers
         .details-container
-          img.icon(src='./assets/experience.png' alt='Experience icon')
+          img.icon(src='../assets/image/experience.png' alt='Experience icon')
           h3 Experience
           p
-            | 2+ years 
+            | 8+ months
             br
             | Frontend Development
         .details-container
-          img.icon(src='./assets/education.png' alt='Education icon')
+          img.icon(src='../assets/image/education.png' alt='Education icon')
           h3 Education
           p
-            | B.Sc. Bachelors Degree
+            | Front-end Development
             br
-            | M.Sc. Masters Degree
+            | School of tehcnology and computer science
       .text-container
-        p
-          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          | reprehenderit et laborum, rem, dolore eum quod voluptate
-          | exercitationem nobis, nihil esse debitis maxime facere minus sint
-          | delectus velit in eos quo officiis explicabo deleniti dignissimos.
-          | Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-          | reiciendis ea magnam? Nulla, impedit fuga!
-  img.icon.arrow(src='./assets/arrow.png' alt='Arrow icon' onclick="location.href='./#experience'")
+        p Desarrollador web Front end con conocimientos en HTML, CSS, Javascript y React. Soy decidido, versátil y capaz de simultanear varias tareas. Con amplia experiencia en entornos laborales en los que se valora el compromiso y la capacidad de trabajar en equipo. Me caracterizo por mi dinamismo, proactividad y entusiasmo; me interesa y estoy en constante aprendizaje de buenas prácticas, lenguajes y tecnologías para mejorar mis habilidades
+          
+  img.icon.arrow(src='../assets/image/arrow-down.png' alt='Arrow icon' onclick="location.href='./#experience'")
 
 </template>

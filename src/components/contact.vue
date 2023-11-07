@@ -23,5 +23,7 @@ footer
           a(href='#projects') Projects
         li
           a(href='#contact') Contact
-  p Copyright &copy; 2023 John Doe. All Rights Reserved.
+  p Copyright &copy; 2023 Dev Bitan. All Rights Reserved.
 </template>
+<!-- pendiente contacto, dejar correo y wtp, pero bien hechos -->
+<!-- Organizar responsive -->

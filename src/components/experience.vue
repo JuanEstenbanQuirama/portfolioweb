@@ -8,58 +8,79 @@ section#experience
         h2.experience-sub-title Frontend Development
         .article-container
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 HTML
               p Experienced
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 CSS
               p Experienced
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 SASS
               p Intermediate
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 JavaScript
-              p Basic
+              p Experienced
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
-              h3 TypeScript
-              p Basic
+              h3 Quazar Js
+              p Intermediate
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
+            div
+              h3 ReactJs
+              p Intermediate
+          article
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
+            div
+              h3 VueJs
+              p Intermediate
+          article
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 Material UI
               p Intermediate
+          
       .details-container
-        h2.experience-sub-title Frontend Development
+        h2.experience-sub-title Backend Development
         .article-container
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 PostgreSQL
               p Basic
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 Node JS
               p Intermediate
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 Express JS
               p Intermediate
           article
-            img.icon(src='./assets/checkmark.png' alt='Experience icon')
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
             div
               h3 Git
               p Intermediate
-  img.icon.arrow(src='./assets/arrow.png' alt='Arrow icon' onclick="location.href='./#projects'")
+          article
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
+            div
+              h3 Sequelize js
+              p Intermediate
+          article
+            img.icon(src='../assets/image/checked.png' alt='Experience icon')
+            div
+              h3 TypeScript
+              p Basic
+  img.icon.arrow(src='../assets/image/arrow-down.png' alt='Arrow icon' onclick="location.href='./#projects'")
 
 </template>
