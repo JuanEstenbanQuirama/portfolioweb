@@ -4,13 +4,13 @@ section#contact
   h1.title Contact Me
   .contact-info-upper-container
     .contact-info-container
-      img.icon.contact-icon.email-icon(src='./assets/email.png' alt='Email icon')
+      img.icon.contact-icon.email-icon(src='../assets/image/linkedin.png' alt='Email icon')
       p
         a(href='mailto:examplemail@gmail.com') Example@gmail.com
     .contact-info-container
-      img.icon.contact-icon(src='./assets/linkedin.png' alt='LinkedIn icon')
+      img.icon.contact-icon(src='../assets/image/linkedin.png' alt='LinkedIn icon')
       p
-        a(href='https://www.linkedin.com') LinkedIn
+        a(href='https://www.linkedin.com/in/jquirama-dev-bitan/') LinkedIn
 footer
   nav
     .nav-links-container
