@@ -27,3 +27,4 @@ footer
 </template>
 <!-- pendiente contacto, dejar correo y wtp, pero bien hechos -->
 <!-- Organizar responsive -->
+<!-- pendiente hja de vida que se pueda descargar  -->

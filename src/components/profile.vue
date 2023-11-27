@@ -7,7 +7,7 @@ section#profile
     h1.title Juan Esteban
     p.section__text__p2 Full stack Developer
     .btn-container
-      button.btn.btn-color-2(onclick="window.open('./assets/resume-example.pdf')")
+      button.btn.btn-color-2(onclick="window.open('../assets/Portafolio.pdf')")
         | Download CV
       button.btn.btn-color-1(onclick="location.href='./#contact'")
         | Contact Info
