@@ -1,4 +1,12 @@
-
+<script setup>
+const toggleMenu = () => {
+  console.log("xd");
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+};
+</script>
 <template lang="pug">
 nav#desktop-nav
   .logo Dev Bitan
@@ -15,18 +23,17 @@ nav#desktop-nav
 nav#hamburger-nav
   .logo Dev Bitan
   .hamburger-menu
-    .hamburger-icon(onclick='toggleMenu()')
+    .hamburger-icon(@click='toggleMenu()')
       span
       span
       span
     .menu-links
       li
-        a(href='#about' onclick='toggleMenu()') About
+        a(href='#about' @click='toggleMenu()') About
       li
-        a(href='#experience' onclick='toggleMenu()') Experience
+        a(href='#experience' @click='toggleMenu()') Experience
       li
-        a(href='#projects' onclick='toggleMenu()') Projects
+        a(href='#projects' @click='toggleMenu()') Projects
       li
-        a(href='#contact' onclick='toggleMenu()') Contact
+        a(href='#contact' @click='toggleMenu()') Contact
 </template>
-<!-- pendiente funcion para el menu hamburguesa -->

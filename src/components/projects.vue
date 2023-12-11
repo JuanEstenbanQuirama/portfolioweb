@@ -6,31 +6,32 @@ section#projects
     .about-containers
       .details-container.color-container
         .article-container
-          img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 1')
-        h2.experience-sub-title.project-title Project One
+          img.project-img(src='../assets/image/bk.png' alt='Project 3')
+        h2.experience-sub-title.project-title Bikinifitness
         .btn-container
-          button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
-            | Github
-          button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
-            | Live Demo
+          a(href="https://github.com/" target="_blank")
+            button.btn.btn-color-2.project-btn Github
+          a(href="https://bikinifitnessclub.com/" target="_blank")
+            button.btn.btn-color-2.project-btn Live Demo
       .details-container.color-container
         .article-container
-          img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 2')
-        h2.experience-sub-title.project-title Project Two
+          img.project-img(src='../assets/image/PPP.png' alt='Project 1')
+        h2.experience-sub-title.project-title Drag & Drop
         .btn-container
-          button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
-            | Github
-          button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
-            | Live Demo
+          a(href="https://github.com/JuanEstenbanQuirama/draganddrop" target="_blank")
+            button.btn.btn-color-2.project-btn Github
+          a(href="https://dragandadropdevbitan.netlify.app/" target="_blank")
+            button.btn.btn-color-2.project-btn Live Demo
       .details-container.color-container
         .article-container
-          img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 3')
-        h2.experience-sub-title.project-title Project Three
+          img.project-img(src='../assets/image/tictactoe.png' alt='Project 2')
+        h2.experience-sub-title.project-title Tic-tac-toe
         .btn-container
-          button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
-            | Github
-          button.btn.btn-color-2.project-btn(onclick="location.href='https://github.com/'")
-            | Live Demo
+          a(href="https://github.com/JuanEstenbanQuirama/tictactoe" target="_blank")
+            button.btn.btn-color-2.project-btn Github
+          a(href="https://tictactocbydevbitan.netlify.app/" target="_blank")
+            button.btn.btn-color-2.project-btn Live Demo
+      
       //- .details-container.color-container
       //-   .article-container
       //-     img.project-img(src='../assets/image/tobbias.jpeg' alt='Project 3')

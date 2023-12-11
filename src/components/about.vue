@@ -11,7 +11,7 @@ section#about
           img.icon(src='../assets/image/experience.png' alt='Experience icon')
           h3 Experience
           p
-            | 6+ months
+            | 8+ months
             br
             | Frontend Development
         .details-container
