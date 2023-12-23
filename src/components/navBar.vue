@@ -1,15 +1,26 @@
 <script setup>
+
 const toggleMenu = () => {
-  console.log("xd");
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 };
+
+const toggleTheme = () => {
+  const buton = document.querySelector(".buttonChange");
+  document.body.classList.toggle("dark");
+  buton.classList.toggle("changeBtn")
+};
+
 </script>
 <template lang="pug">
 nav#desktop-nav
-  .logo Dev Bitan
+  .logo 
+    div.logo-name Dev Bitan
+    div.toggle-theme(@click='toggleTheme()')
+      button.buttonChange Theme
+    //- button.buttonChange Language
   div
     ul.nav-links
       li
@@ -21,7 +32,11 @@ nav#desktop-nav
       li
         a(href='#contact') Contact
 nav#hamburger-nav
-  .logo Dev Bitan
+  .logo-name Dev Bitan
+    .logo-name Dev Bitan
+    .toggle-theme(@click='toggleTheme()')
+      button.buttonChange Theme
+    //- button.buttonChange Language
   .hamburger-menu
     .hamburger-icon(@click='toggleMenu()')
       span
