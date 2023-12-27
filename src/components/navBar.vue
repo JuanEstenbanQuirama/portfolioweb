@@ -32,7 +32,8 @@ nav#desktop-nav
       li
         a(href='#contact') Contact
 nav#hamburger-nav
-  .logo-name Dev Bitan
+  .logo-name 
+    .logo-name Dev Bitan
     .toggle-theme(@click='toggleTheme()')
       button.buttonChange Theme
     //- button.buttonChange Language

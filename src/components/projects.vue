@@ -6,7 +6,7 @@ section#projects
     .about-containers
       .details-container.color-container
         .article-container
-          img.project-img(src='../assets/image/bk.png' alt='Project 3')
+          img.project-img(src='../assets/image/bkit.png' alt='Project 3')
         h2.experience-sub-title.project-title Bikinifitness
         .btn-container
           a(href="https://github.com/" target="_blank")
@@ -15,7 +15,7 @@ section#projects
             button.btn.btn-color-2.project-btn Live Demo
       .details-container.color-container
         .article-container
-          img.project-img(src='../assets/image/PPP.png' alt='Project 1')
+          img.project-img(src='../assets/image/ddrop.png' alt='Project 1')
         h2.experience-sub-title.project-title Drag & Drop
         .btn-container
           a(href="https://github.com/JuanEstenbanQuirama/draganddrop" target="_blank")
