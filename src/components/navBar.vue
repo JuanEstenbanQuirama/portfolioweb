@@ -17,7 +17,7 @@ const toggleTheme = () => {
 <template lang="pug">
 nav#desktop-nav
   .logo 
-    div.logo-name Dev Bitan
+    div.logo-name Dev Bitann
     div.toggle-theme(@click='toggleTheme()')
       button.buttonChange Theme
     //- button.buttonChange Language
@@ -33,7 +33,7 @@ nav#desktop-nav
         a(href='#contact') Contact
 nav#hamburger-nav
   .logo-name Dev Bitan
-    .logo-name Dev Bitan
+    .logo-name Dev Bitann
     .toggle-theme(@click='toggleTheme()')
       button.buttonChange Theme
     //- button.buttonChange Language
