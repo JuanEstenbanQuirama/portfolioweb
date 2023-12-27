@@ -24,7 +24,7 @@ section#projects
             button.btn.btn-color-2.project-btn Live Demo
       .details-container.color-container
         .article-container
-          img.project-img(src='../assets/image/tictactoe.png' alt='Project 2')
+          img.project-img(src='../assets/image/tictac.png' alt='Project 2')
         h2.experience-sub-title.project-title Tic-tac-toe
         .btn-container
           a(href="https://github.com/JuanEstenbanQuirama/tictactoe" target="_blank")
