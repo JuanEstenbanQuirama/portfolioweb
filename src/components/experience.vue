@@ -81,6 +81,5 @@ section#experience
             div
               h3 TypeScript
               p Basic
-  img.icon.arrow(src='../assets/image/arrow-down.png' alt='Arrow icon' onclick="location.href='./#projects'")
 
 </template>

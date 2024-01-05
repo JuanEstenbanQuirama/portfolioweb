@@ -209,7 +209,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  // height: 96vh;
   margin: 0 10rem;
   min-height: fit-content;
 }
@@ -351,18 +351,6 @@ section {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-  cursor: pointer;
-  height: 2rem;
-}
-
-// .arrowNew {
-//   cursor: pointer;
-//   height: 2rem;
-// }
 
 .details-container {
   padding: 1.5rem;

@@ -14,6 +14,6 @@ section#profile
     #socials-container
       a(href="https://www.linkedin.com/in/jquirama-dev-bitan/" target="_blank")
         img.icon(src='../assets/image/linkedin.png' alt='My LinkedIn profile')
-      a(href="https://github.com/" target="_blank")  
+      a(href="https://github.com/JuanEstenbanQuirama" target="_blank")  
         img.icon(src='../assets/image/github.png' alt='My Github profile')
 </template>
