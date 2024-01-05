@@ -1,5 +1,4 @@
 /* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -8,20 +7,68 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
+// DARK MODE*********************************
 body.dark {
   background-color: #acacbe;
   transition: all 0.3 ease-in-out;
-  // color: white;
 }
 
+.toggleBk {
+  position: relative;
+}
 
+.toggleBkItem {
+  position: absolute;
+  left: 11%;
+  top: 100%;
+}
 
-.toggle-theme{
+.labelDarkMode {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  display: block;
+  background-color: #acacbe;
+  border: 4px solid rgba(198, 247, 253, 0.3);
+  border-radius: 100px;
   cursor: pointer;
+  transition: 1s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.labelDarkMode::after {
+  content: "";
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  top: 2px;
+  left: 3px;
+  transition: 0.8s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputDarkMode:checked ~ label::after {
+  left: 40px;
+  transform: translateX(-100%);
+  background-color: #acacbe;
+}
+
+.inputDarkMode:checked ~ label {
+  background-color: #f2f2f2;
+}
+
+.inputDarkMode {
+  display: none;
 }
 
 .buttonChange {
@@ -44,15 +91,9 @@ body.dark {
   transition: all 0.3 ease-in-out;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 p {
   color: rgb(85, 85, 85);
 }
-
-/* TRANSITION */
 
 a,
 .btn {
@@ -91,17 +132,10 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-// .logo {
- 
-// }
-
 .logo-name {
   margin-top: 20px;
   font-size: 3rem;
 }
-// .logo:hover {
-//   // cursor: pointer;
-// }
 
 /* HAMBURGER MENU */
 
@@ -121,7 +155,6 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
-  
 }
 
 .hamburger-icon span {
@@ -158,7 +191,6 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
-  
 }
 
 .hamburger-icon.open span:first-child {
@@ -173,25 +205,12 @@ a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-// .hamburger-icon span:first-child {
-//   transform: none;
-// }
-
-// .hamburger-icon span:first-child {
-//   opacity: 1;
-// }
-
-// .hamburger-icon span:first-child {
-//   transform: none;
-// }
-
 /* SECTIONS */
 
 section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
-  
   min-height: fit-content;
 }
 
@@ -216,9 +235,8 @@ section {
 }
 .section__pic-container-img {
   max-width: 100%;
-    /* height: 100%; */
-    border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .section__text {
@@ -269,8 +287,8 @@ section {
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
-  padding: 1rem;
-  width: 8rem;
+  padding: 12px;
+  width: 7rem;
   border-radius: 2rem;
 }
 
@@ -337,7 +355,14 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  cursor: pointer;
+  height: 2rem;
 }
+
+// .arrowNew {
+//   cursor: pointer;
+//   height: 2rem;
+// }
 
 .details-container {
   padding: 1.5rem;
@@ -403,29 +428,11 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
-  position: relative;
-}
+.projectos {
+  padding-top: 4vh;
+  margin: 0 10rem;
+  min-height: fit-content;
 
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
-}
-
-.project-img {
-  border-radius: 2rem;
-  width: 100%;
-  height: 100%;
-}
-
-.project-title {
-  margin: 1rem;
-  color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
 }
 
 /* CONTACT */
@@ -471,9 +478,8 @@ article .icon {
   // background-color: #acacbe;
   border-color: rgb(163, 163, 163);
   border: rgb(53, 53, 53) 0.1rem solid;
-  
 }
-.contact-info-upper-container-btn{
+.contact-info-upper-container-btn {
   width: 350px;
   padding: 12px;
   border-radius: 12px;
@@ -483,7 +489,6 @@ article .icon {
   border: rgb(53, 53, 53) 0.1rem solid;
   cursor: pointer;
 }
-
 
 /* FOOTER SECTION */
 
@@ -496,129 +501,126 @@ footer p {
   text-align: center;
 }
 
-
 @media screen and (max-width: 1400px) {
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    // .about-containers {
-    //   // flex-wrap: wrap;
-    // }
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
   }
-  
-  @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
-    .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-      
-    }
-    .about-containers {
-      margin-top: 0;
-    }
+  // .about-containers {
+  //   // flex-wrap: wrap;
+  // }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
   }
-  
-  @media screen and (max-width: 600px) {
-    #contact,
-    footer {
-      height: 40vh;
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-    article {
-      font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
-      margin: 0;
-    }
-    .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
-    }
-    .section__text__p2 {
-      font-size: 1.25rem;
-    }
-    .title {
-      font-size: 2rem;
-    }
-    .text-container {
-      text-align: justify;
-    }
-  }
-  
-  // **************************** wtp btn
-  .buymeacoffee {
-    text-decoration: none;
-    position: fixed;
-    right: 2rem;
-    bottom: 2rem;
-    background: #FFDD00;
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    transition: all 0.1s linear;
-    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+  #hamburger-nav {
     display: flex;
-    align-items: center;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
     justify-content: center;
   }
-  
-  .buymeacoffee:hover {
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
+  .section__text__p2 {
+    font-size: 1.25rem;
   }
-  
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+// BTN WHATSAPP****
+.buymeacoffee {
+  text-decoration: none;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  background: #ffdd00;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  transition: all 0.1s linear;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buymeacoffee:hover {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+}
