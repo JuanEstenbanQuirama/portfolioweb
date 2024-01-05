@@ -8,7 +8,7 @@ section#profile
     p.section__text__p2 Full stack Developer
     .btn-container
       button.btn.btn-color-2
-        a(href="../assets/portafolio.pdf" target="_blank") Download CV
+        a(href='/cvjuanestebanquiramalopez.pdf' target="_blank" download) Download CV
       button.btn.btn-color-1(onclick="location.href='./#contact'")
         | Contact Info
     #socials-container
